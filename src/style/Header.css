@@ -1,0 +1,57 @@
+.navbar {
+    background-color: transparent !important;
+    background: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .navbar_head {
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+  }
+  
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+  }
+  
+  .dropitemsnav li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-light .navbar_head {
+    color: black;
+    font-size: 36px;
+  }
+  
+  .navbar-light .navbar_head:focus,
+  .navbar-light .navbar_head:hover {
+    color: #f5a637;
+  }
+  
+  .navbar-light .dropitemsnav .nav-link {
+    color: white;
+  }
+  
+  .navbar-light .dropitemsnav .nav-link:focus,
+  .navbar-light .dropitemsnav .nav-link:hover {
+    color: #f5a637;
+  }

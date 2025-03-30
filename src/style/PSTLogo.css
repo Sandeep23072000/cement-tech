@@ -1,0 +1,80 @@
+/* .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;  No gap to overlap circles 
+    position: relative;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+  }
+  
+  .blue {
+    background-color: #3498db;
+    z-index: 2;
+  }
+  
+  .green {
+    background-color: #4CAF50;
+    margin-left: -15px;  Overlapping effect 
+    z-index: 3;
+  }
+  
+  .red {
+    background-color: #e74c3c;
+    margin-left: -15px; /* Overlapping effect 
+    z-index: 4;
+  } */
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circle {
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border: 2px solid black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Colors for a white background */
+.blue {
+    background: linear-gradient(to bottom, #0057B7, #003F8A);
+    z-index: 2;
+}
+
+.green {
+    background: linear-gradient(to bottom, #008F39, #006628);
+    margin-left: -22px; /* Overlapping effect */
+    z-index: 3;
+}
+
+.red {
+    background: linear-gradient(to bottom, #D70040, #A00030);
+    margin-left: -22px; /* Overlapping effect */
+    z-index: 4;
+}
